@@ -1,0 +1,165 @@
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+p {
+    color: grey;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight:bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 20%;
+    position: absolute;
+    transform: rotate(25deg);
+    z-index: 1;
+    right: 20%;
+}
+
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.features-box{
+    text-align: center;    
+    padding: 5%
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;    
+}
+
+.icon:hover {
+    color: #ff4c68
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+
+.testimg {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.logo-press {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.p-price {
+    margin-bottom: 57px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+    text-align: center;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
+
+#cta {
+    text-align: center;
+    padding: 5% 15%;
+    background-color: #ff4c68;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    width: 100%;
+}
+
+.title-cta {
+    font-size: 2.5rem;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.icon-footer {
+    margin:20px 10px;
+}
